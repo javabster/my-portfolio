@@ -1,25 +1,25 @@
-.nav {
+/*.nav {
   background-color: white;
   margin:0;
-}
+}*/
 
-.nav-list {
+/*.nav-list {
   display: flex;
   flex-direction:row;
   justify-content: space-around;
   font-family: 'Nanum Gothic', sans-serif;
   background-color: #4b0082;
   font-size: 10;
-  /*padding: 20px;*/
+  padding: 20px;
   margin: 0;
   -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0px;
-}
+}*/
 
-.a {
+/*.a {
   height: 100%;
   width: 100%;
   padding: 25px;
@@ -29,7 +29,7 @@
 
 .a:hover {
   background-color: #008CBA;
-}
+}*/
 
 .page1 {
   height: 1000px;
@@ -83,6 +83,43 @@
   color: white;
   padding-bottom:30px;
   font-family: 'Nanum Gothic', sans-serif;
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20px;
+}
+
+.scroll-sign {
+  color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.arrow {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  transform: rotate(180deg);
+  font-size: 80px;
+  /*margin: 0;*/
+  animation: moveUpDown 2s infinite;
+  position: absolute;
+  
+}
+
+@keyframes moveUpDown {
+  0% {
+    padding-bottom: 30px;
+  }
+  50% {
+    padding-bottom: 80px;
+  }
+  100% {
+    padding-bottom: 30px;
+  }
 }
 
 .page2 {

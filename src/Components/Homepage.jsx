@@ -23,40 +23,23 @@ handleLinkedInClick() {
 
 render() {
   return(
-      <div>
+    <div>
       <head>
        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nanum+Gothic|Pacifico|Roboto" rel="stylesheet"/>
       </head>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-      <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-      <script>
-      {$('.smooth').on('click', function() {
-          $.smoothScroll({
-              scrollElement: $('body'),
-              scrollTarget: '#' + this.id,
-          });
-          
-          return false;
-      })}
-      </script>
-      <StickyHeader>
-          <div>
-            <ul className="nav-list">
-             <a className="a" href="#home">Home</a>
-             <a className="a" href="#aboutMe">About Me</a>
-             <a className="a" href="#academicBackground">Academic Background</a>
-           </ul>
-           </div>
-      </StickyHeader>
       <div className="page1" id="home">
         <img className="coding-img" src={require('../Images/coding.jpeg')}></img>
         <div className="page1-items-container">
           <h1 className="name">Abby Mitchell</h1>
           <h2 className="tagline">UCL undergraduate student. Aspiring web developer. Interdisciplinary individual.</h2>
           <div className="button-box">
-          <button onClick={this.handleLinkedInClick} className="button">LinkedIn</button>
-          <button onClick={this.handleGitHubClick} className="button">GitHub</button>
-        </div>
+            <button onClick={this.handleLinkedInClick} className="button">LinkedIn</button>
+            <button onClick={this.handleGitHubClick} className="button">GitHub</button>
+          </div>
+          <div className="scroll-container">
+            <h2 className="scroll-sign">scroll for more</h2>
+            <div className="arrow">^</div>
+          </div>
         </div>
       </div>
       <div className="page2" id="aboutMe">
