@@ -110,7 +110,7 @@ render() {
         <div className="page4-items-container">
           <div className="study-abroad-para"><p>This year as part of my degree I am undertaking a study abroad year in
           Shanghai, China. My primary academic aim for this year is to undertake an intensive Mandarin
-          study programme at Shanghai, Jiao Tong University.</p>
+          study programme at Shanghai Jiao Tong University.</p>
           <p> This involves taking modules in Speaking, Readingand Listening, as well as an 
           optional Businies Chinese module.</p>
           <p>See here a graphical representationof my grades from the past 6 months (because graphs 
