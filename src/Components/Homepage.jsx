@@ -26,6 +26,15 @@ render() {
   return(
     <div>
       <head>
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127577148-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-127577148-1');
+        </script>
        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nanum+Gothic|Pacifico|Roboto" rel="stylesheet"/>
       </head>
       <div className="page1" id="home">
