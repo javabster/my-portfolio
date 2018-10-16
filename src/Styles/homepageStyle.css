@@ -349,3 +349,34 @@
   height: 170px;
   width:170px;
 }
+
+.page4 {
+  height: 1000px;
+  background-color:  #F0F8FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page4-items-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+  /*align-items: space-around;*/
+}
+
+.study-abroad-para {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 40%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  margin-right: 40px;
+  color: #696969;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
