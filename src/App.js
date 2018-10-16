@@ -5,7 +5,7 @@ import ReactGA from 'react-ga';
 
 function initializeReactGA() {
   ReactGA.initialize('UA-127577148-1');
-  ReactGA.pageview('/Homepage');
+  ReactGA.pageview('https://javabster.github.io/my-portfolio/');
 }
 
 class App extends Component {
