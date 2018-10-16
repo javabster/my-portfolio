@@ -13,7 +13,7 @@ class Homepage extends Component {
 constructor(props) {
     super(props);
     ReactGA.initialize('UA-127577148-1');
-    ReactGA.pageview('https://javabster.github.io/my-portfolio/');
+    ReactGA.pageview('my-portfolio/src/Components/Homepage');
   }
 
 handleGitHubClick() {
