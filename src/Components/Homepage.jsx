@@ -3,6 +3,7 @@ import '../Styles/homepageStyle.css';
 import {StickyContainer, Sticky} from 'react-sticky';
 import StickyHeader from 'react-sticky-header';
 import Graph from './Graph.js';
+import ReactGA from 'react-ga';
 
 var $ = require ('jquery');
 // var Button = require('react-button');
@@ -11,6 +12,8 @@ class Homepage extends Component {
 
 constructor(props) {
     super(props);
+    ReactGA.initialize('UA-127577148-1');
+    ReactGA.pageview('https://javabster.github.io/my-portfolio/');
   }
 
 handleGitHubClick() {
